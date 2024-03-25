@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f22bfa0-b067-48e1-bb2d-d416866842f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/naturedots.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/alembic/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/alembic/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/alembic/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/alembic/versions/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/alembic/versions/e2412789c190_initialize_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/deps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/observations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/backend_pre_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/email-templates/build/new_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/email-templates/build/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/email-templates/build/test_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/email-templates/src/new_account.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/email-templates/src/reset_password.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/email-templates/src/test_email.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/initial_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/api/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/api/routes/test_items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/api/routes/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/api/routes/test_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/crud/test_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/scripts/test_backend_pre_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/scripts/test_test_pre_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/utils/item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/utils/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/tests_pre_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/prestart.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/format-imports.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/format.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/lint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copier.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/development.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.traefik.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/biome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/modify-openapi-operationids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx-backend-not-found.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/naturedots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/core/ApiError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/core/ApiRequestOptions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/core/ApiResult.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/core/CancelablePromise.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/core/OpenAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/core/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/Body_login_login_access_token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/HTTPValidationError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ItemCreate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ItemOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ItemUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ItemsOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/Message.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/NewPassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ObservationCreate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ObservationOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ObservationUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ObservationsOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/Token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UpdatePassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UserCreate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UserCreateOpen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UserOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UserUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UserUpdateMe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/UsersOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/models/ValidationError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$Body_login_login_access_token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$HTTPValidationError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ItemCreate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ItemOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ItemUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ItemsOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$Message.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$NewPassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ObservationCreate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ObservationOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ObservationUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ObservationsOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$Token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UpdatePassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UserCreate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UserCreateOpen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UserOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UserUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UserUpdateMe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$UsersOut.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/schemas/$ValidationError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/services/ItemsService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/services/LoginService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/services/ObservationsService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/services/UsersService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/client/services/UtilsService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Admin/AddUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Admin/EditUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/ActionsMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/DeleteAlert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/SidebarItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Common/UserMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Items/AddItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Items/EditItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Observations/AddObservation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Observations/EditObservation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserSettings/Appearance.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserSettings/ChangePassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserSettings/DeleteAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserSettings/DeleteConfirmation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserSettings/UserInformation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useCustomToast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routeTree.gen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/__root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/_layout/admin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/_layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/_layout/items.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/_layout/settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/recover-password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/reset-password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/theme.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/post_gen_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dashboard-create.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dashboard-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dashboard-items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dashboard-user-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/docs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/github-social-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/github-social-preview.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release-notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build-push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test-local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2eAraBYzE53WkGtimSYpTs6SPhE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gauravgurjar/PycharmProjects/naturedots"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f22bfa0-b067-48e1-bb2d-d416866842f0" name="Changes" comment="" />
+      <created>1711358285659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711358285659</updated>
+    </task>
+    <servers />
+  </component>
+</project>
