@@ -92,7 +92,4 @@ General development docs: [development.md](./development.md).
 This includes using Docker Compose, custom local domains, `.env` configurations, etc.
 
 ## Get to the Terminal after configuration
-Run the following command.
-```bash
-docker compose up -d
-```
+Run the ``localstack-run.sh`` file in the terminal.
