@@ -27,9 +27,6 @@
 
 [![API docs](img/login.png)](https://github.com/tiangolo/full-stack-fastapi-template)
 
-### Dashboard - Admin
-
-[![API docs](img/dashboard.png)](https://github.com/tiangolo/full-stack-fastapi-template)
 
 ### Dashboard - Items
 
